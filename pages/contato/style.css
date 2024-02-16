@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 120px;
+}
+
+header svg {
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar-menu-superior {
+    display: flex;
+    gap: 28px;
+    justify-content: flex-end;
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-Weight: 400;
+    font-size: 12px;
+    color: #33323D;
+}
+
+.navbar-menu-superior a {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.navbar-link-menu {
+    text-decoration: none;
+}
+
+#fonte-pagina-atual {
+    color: #5FB4A2;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 120px;
+}
+
+
+.formulario label {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.8;
+}
+
+.formulario input {
+    width: 300px;
+    height: 150px;
+    background-color: #33323D;
+    opacity: 10%;
+}
+
+.formulario input:focus {
+    border: 2px solid #33323D;
+}
+
+footer {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: #33323D;
+}
+
+hr {
+    opacity: 0.15;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    align-content: center;
+    margin: 0 120px;
+    }
+
+.menu-inferior {
+    width: 20%;
+    }
+
+.navbar-menu-inferior {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.navbar-link-menu {
+    text-decoration: none;
+}
+
+.navbar-menu-inferior a {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.logo-rodape-dark {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 20%;
+}

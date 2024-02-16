@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.botao-branco {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #33323d;
+    padding: 17px 38px;
+    cursor: pointer;
+    width: 230px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.terceira-sessao h2 {
+    height: 84px;
+    width: 379px;
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    color: #33323D;
+}
+
+.sessao-final-da-pagina {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagina-anterior h2 {
+    font-size: 20px;
+}
+
+.nome-da-pagina-anterior h2 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+}
+
+.nome-da-pagina-anterior strong {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.5;
+}
+
+.nome-da-proxima-pagina strong {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.5;
+}
+
+.proxima-pagina h2 {
+    width: 8px;
+    height: 16px;
+    left: 1275px;
+    top: 2119px;
+}
+
+.proxima-pagina {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.pagina-anterior{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.nome-da-proxima-pagina{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.nome-da-pagina-anterior{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.nome-da-proxima-pagina h2 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #33323D;
+}
+
+.botao-terceira-sessao {
+    display: flex;
+    border: 1px solid #33323d;
+    cursor: pointer;
+    padding: auto;
+    background: #F2F2F2;
+    width: 168px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-terceira-sessao:hover {
+    background: #33323D;
+    color: #ffffff;
+}

@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 120px;
+}
+
+header svg {
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar-menu-superior {
+    display: flex;
+    gap: 28px;
+    justify-content: flex-end;
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-Weight: 400;
+    font-size: 12px;
+}
+
+.navbar-menu-superior a {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.navbar-link-menu {
+    text-decoration: none;
+}
+
+#fonte-pagina-atual {
+    color: #5FB4A2;
+
+}
+
+.primeira-sessao {
+    background-image: url("./../../assets/home/image-homepage-hero.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px 120px;
+    height: 700px;
+    position: relative;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin-top: 242px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fafafa;
+    position: absolute;
+    bottom: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.botao a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.botao {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    min-width: 200px;
+    min-height: 48px; 
+    color: #ffffff;
+    background: #203A4C;
+    justify-content: space-between;
+    padding-right: 7%;
+}
+.botao:hover {
+    background: #5FB4A2;
+}
+
+
+.botao span {
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    align-self: center;
+}
+
+.icone-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.botao:hover .icone-botao svg g {
+    stroke: #ffffff;
+}
+
+.titulo h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #33323D;
+}
+
+.segunda-sessao {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 120px;
+}
+
+.ladoA {
+    background-image: url("./../../assets/home/image-homepage-profile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+    width: 500px;
+    height: 520px;
+}
+
+.ladoB {
+    width: 430px;
+    height: 700px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+}
+.titulos {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323D;
+
+}
+
+.paragrafos {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    opacity: 0.8;
+}
+.link {
+    text-decoration: none;
+    color: #33323D;
+
+}
+.texto-manage h2 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.terceira-sessao {
+    display: flex;
+    justify-content: space-between;
+    margin: 108px 120px;
+}
+
+.terceira-sessao h2 {
+    height: 84px;
+    width: 379px;
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    color: #33323D;
+}
+
+.botao-terceira-sessao {
+    display: flex;
+    border: 1px solid #33323d;
+    cursor: pointer;
+    padding: auto;
+    background: #F2F2F2;
+    width: 168px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-terceira-sessao {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.terceira-sessao a {
+    text-decoration: none;
+}
+
+.botao-terceira-sessao:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #33323D;
+}
+
+footer {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: #33323D;
+}
+
+.content-footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80%;
+align-content: center;
+margin: 0 120px;
+}
+
+.navbar-menu-inferior {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu-inferior {
+    width: 20%;
+}
+
+hr {
+    opacity: 0.15;
+}
+.navbar-menu-inferior a {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.logo-rodape-dark {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 20%;
+}
+
+.terceira-sessao {
+    display: flex;
+    justify-content: space-between;
+    margin: 108px 120px;
+}
+
+.terceira-sessao h2 {
+    height: 84px;
+    width: 379px;
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    color: #33323D;
+}
+
+.botao-terceira-sessao {
+    display: flex;
+    border: 1px solid #33323d;
+    cursor: pointer;
+    padding: auto;
+    background: #F2F2F2;
+    width: 168px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-terceira-sessao:hover {
+    background: #33323D;
+    color: #ffffff;
+}
+
+.botao-branco {
+    display: flex;
+    border: 1px solid #33323d;
+    padding: 17px 28px;
+    cursor: pointer;
+    width: 230px;
+    justify-content: center;
+}
